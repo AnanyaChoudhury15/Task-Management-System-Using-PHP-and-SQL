@@ -1,0 +1,125 @@
+body {
+    background-color: #355764;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#home_page {
+    background-color: #D4F6CC;
+    padding: 25px 25px;
+    height: 25vh;
+    width: 50vw;
+    text-align: center;
+}
+
+
+#login_home_page{
+    background-color: #81CACF;
+    padding: 35px 50px;
+    height: 50vh;
+    width: 35vw;
+    text-align: center;
+}
+
+#register_home_page{
+    background-color: #81CACF;
+    padding: 30px 50px;
+    height: 70vh;
+    width: 35vw;
+    text-align: center;
+}
+
+#header{
+    background-color: #D4F6CC;
+    height: 9vh;
+    width: 100vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    align-self: flex-start;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+      
+}
+
+#left_sidebar {
+    padding: 10px; /* Adjust padding as needed */
+    height: calc(100vh - 9vh);
+    position: fixed; /* Fix the sidebar on the left */
+    left: 0;
+    top: 9vh; /* Start from the top */
+    overflow: auto; /* Add scroll if content overflows */
+    /*display: inline-block;*/
+    background-color: inherit;
+     
+}
+
+.sidebar-button {
+    display: block;
+    height:8vh;
+    width: 100%;
+    padding: 10px 10px; /* Adjust padding as needed */
+    text-align: center;
+    background-color: transparent; /* Button background color */
+    color: white; /*Button text color */
+    text-decoration: none;/* Remove underline */
+    /* border-radius: 5px; Optional: rounded corners */
+    margin-bottom: 5px; /* Space between buttons */
+    border: none;
+}
+
+.sidebar-button:hover {
+    color: #06305c;
+    background-color: #D4F6CC ;/* Optional: subtle background on hover */
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.table td {
+    padding: 0; /* Remove padding from table cells */
+    background-color: rgba(0, 0, 0, 0.1); /* Ensure table cells have no background */
+}
+
+#right_sidebar {
+    margin-left: 16.6667%; /* Adjust according to sidebar width (e.g., 2 out of 12 columns) */
+    margin-top: 30px;
+    padding: 20px;
+    background-color: inherit;
+    color: white; /* White text color */
+    height: calc(100vh - 9vh); /* Full height minus header height */
+    overflow: auto;
+    position: relative;
+    top: 0; /* Ensure it starts right after the header */
+}
+
+li{
+    margin-bottom: 25px;
+}
+
+#create_task_container{
+    padding: 20px;
+    background-color: inherit;
+    text-align: left;
+}
+
+#create_task_container h3{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+    text-align: left;
+}
+#create_task_container .form-group {
+    margin-bottom: 10px;
+}
+.row {
+    width: 100%;
+    margin: 0;
+}
+
